@@ -1,0 +1,199 @@
+p,
+
+.copyright li
+{
+  font-family: Cabin, sans-serif;
+}
+.fa-asterisk,
+h2,
+
+footer .social-media .links a:hover,
+.copyright .info li a {
+  color: #a96700;
+}
+
+.about-us .text,
+footer,
+.copyright,
+.contact .text i {
+  text-align: center;
+}
+
+.about-us,
+
+.about-us .image-container,
+footer .contact-container,
+.copyright ul
+{
+  display: flex;
+}
+
+footer .social-media .links a,
+.copyright  {
+  transition: 0.3s;
+}
+
+.copyright,
+.copyright .arrow-up {
+  position: relative;
+}
+
+.copyright .svg-up {
+  position: absolute;
+}
+
+
+
+.image img,
+footer .newsletter i,
+.copyright .arrow-up {
+  cursor: pointer;
+}
+
+
+
+
+h3,
+
+footer .text h2,
+footer .text p,
+footer .social-media .links a{
+  color: #fff;
+}
+
+.copyright .arrow-up {
+  left: 0;
+}
+
+footer .social-media .links a,
+footer .newsletter i,
+.copyright .arrow-up {
+  display: inline-block;
+}
+/*End Mutual*/
+
+
+/*Start About-Us*/
+.about-us,
+.reservation {
+  padding: 60px;
+}
+.about-us .text,
+.reservation .text {
+  flex: 50%;
+  padding: 40px 52px 0 0;
+}
+.about-us .text h3,
+.reservation .text h3 {
+  color: #000;
+}
+.about-us .text .fa-asterisk,
+.reservation .text .fa-asterisk {
+  color: #9a9998;
+}
+.about-us .image-container,
+.reservation .image-container {
+  flex: 50%;
+}
+.about-us .image,
+.reservation .image {
+  margin-left: 20px;
+}
+/*End About-Us*/
+
+
+
+/*Start Footer*/
+footer {
+  background-color: #121212;
+  padding: 60px 20px;
+}
+
+
+
+footer .text {
+  max-width: 500px;
+  margin: auto;
+}
+footer .text h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  letter-spacing: 1.9px;
+  margin-bottom: 25px;
+}
+footer .text .fa-asterisk {
+  font-size: 12px;
+}
+footer .text p {
+  line-height: 27px;
+}
+footer .contact-container {
+  padding: 40px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+footer .contact-container > div {
+  flex: 1;
+}
+footer .contact-container h3 {
+  font-size: 19px;
+  letter-spacing: 1.9px;
+}
+footer .social-media .links a {
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+.links img {
+  width: 30px;
+  height: 30px;
+}
+
+footer .newsletter input {
+  padding: 10px;
+  width: 270px;
+  background-color: #eee;
+  border: none;
+  margin-left: -15px;
+}
+footer .newsletter i {
+  margin-left: -40px;
+  vertical-align: middle;
+  font-size: 21px;
+}
+.copyright {
+  padding: 15px 40px 30px;
+  background-color: #262526;
+}
+.copyright .svg-up {
+  top: 0;
+  left: 50%;
+  margin-left: -96px;
+  margin-top: -50px;
+}
+.copyright .arrow-up {
+  width: 40px;
+  height: 30px;
+  top: -45px;
+  color: #fff;
+  line-height: 1.9
+}
+.copyright ul {
+  justify-content: center;
+}
+.copyright li {
+  color: #919191;
+  font-size: 14px;
+}
+.copyright li:not(:last-of-type):after {
+  content: '•';
+  margin: 10px;
+}
+.copyright .CTA {
+  margin-top: 25px;
+}
+.copyright .CTA li a {
+  color: #919191;
+}
+
+/*End Footer*/
